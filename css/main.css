@@ -42,25 +42,26 @@ body {
 
 .robot-head-right,
 .robot-head-left {
-  position: fixed;
-  top: 2.5%;
+  top: 7%;
   width: 125px;
 }
 
 .robot-head-left {
-  left: 27%;
+  position: absolute;
+  left: 11%;
 }
 
 .robot-head-right {
+  position: absolute;
   left: 49.5%;
 }
 
 .robot:hover .robot-head-right {
   left: 54%;
-  top: 1%;
+  top: 5%;
 }
 
 .robot:hover .robot-head-left {
-  top: 1%;
-  left: 23%;
+  top: 5%;
+  left: 7%;
 }
