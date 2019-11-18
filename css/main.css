@@ -21,6 +21,7 @@ body {
 
 .robot {
   width: 320px;
+  height: 320px;
 }
 
 .robot-body {
@@ -64,4 +65,8 @@ body {
 .robot:hover .robot-head-left {
   top: 5%;
   left: 7%;
+}
+
+.robot:hover .robot-brain {
+  top: 15%;
 }
